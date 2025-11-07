@@ -8,14 +8,20 @@ export default defineConfig({
   description: "Manage your servers fleet with ease",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [{ text: "Home", link: "/" }],
+    nav: [
+      { text: "Home", link: "/" },
+      {
+        text: "Contact Us",
+        link: "/contact-us",
+      },
+    ],
 
     sidebar: [
       {
         text: "Docs",
         items: [
           { text: "Getting Started", link: "/getting-started" },
-          { text: "Runtime API Examples", link: "/api-examples" },
+          { text: "Contact Us", link: "/contact-us" },
         ],
       },
     ],
