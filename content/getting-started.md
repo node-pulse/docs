@@ -1,6 +1,12 @@
-# What Node Pulse Admiral is
+# Node Pulse Admiral
 
-Unified server fleet dashboard—visualize Prometheus metrics, automate deployments with built-in and community-contributed Ansible playbooks, and manage servers via web-based SSH terminal.
+## What it is - Unified server fleet dashboard
+
+- visualize Prometheus metrics
+- automate deployments with built-in and community-contributed Ansible playbooks
+- manage servers via web-based SSH terminal.
+
+## How it works exactly
 
 - After setting up Admiral, it will receive metrics sent from all your servers via the Node Pulse Agent, every 15 seconds
 - Node Pulse Agent is just a simple forwarder, the metrics are collected by Prometheus node exporter and process exporter
@@ -8,34 +14,31 @@ Unified server fleet dashboard—visualize Prometheus metrics, automate deployme
 - There are many built-in and community-contributed Ansible playbooks. You can deploy applications and services by using Ansible Playbooks from the web UI.
 - Of course, you can upload your own Ansible playbooks
 
-## Syntax Highlighting
+## Installation
 
-VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting:
+### Download
 
-**Input**
+```bash
+curl -LO https://github.com/node-pulse/admiral/releases/latest/download/node-pulse-admiral-latest.tar.gz
 
-````md
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
 ```
-````
 
-**Output**
+### Unpack
 
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
+```bash
+tar xzf node-pulse-admiral-latest.tar.gz -C /opt/admiral --strip-components=1
+```
+
+### Go to the direcotry
+
+```bash
+cd /opt/admiral
+```
+
+### Deploy (interactive - no manual .env editing needed)
+
+```bash
+sudo ./deploy.sh
 ```
 
 ## Custom Containers
