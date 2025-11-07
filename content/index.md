@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Node Pulse Admiral"
   text: ""
-  tagline: Production-ready agent fleet management system for monitoring Linux servers with secure mTLS authentication, real-time metrics collection, and zero-configuration deployment.
+  tagline: The control panel for your server fleet—deploy monitoring agents, track inventory, and visualize Prometheus metrics in one integrated platform.
   image:
     src: /images/logo.jpg
     alt: VitePress
