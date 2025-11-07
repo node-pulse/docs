@@ -1,6 +1,12 @@
-# Markdown Extension Examples
+# What Node Pulse Admiral is
 
-This page demonstrates some of the built-in markdown extensions provided by VitePress.
+Unified server fleet dashboard—visualize Prometheus metrics, automate deployments with built-in and community-contributed Ansible playbooks, and manage servers via web-based SSH terminal.
+
+- After setting up Admiral, it will receive metrics sent from all your servers via the Node Pulse Agent, every 15 seconds
+- Node Pulse Agent is just a simple forwarder, the metrics are collected by Prometheus node exporter and process exporter
+- You can connect to your servers via the web-based SSH terminal, very handy
+- There are many built-in and community-contributed Ansible playbooks. You can deploy applications and services by using Ansible Playbooks from the web UI.
+- Of course, you can upload your own Ansible playbooks
 
 ## Syntax Highlighting
 
