@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /getting-started.html
+      link: /getting-started
     - theme: alt
       text: View on GitHub
       link: https://github.com/node-pulse/admiral
