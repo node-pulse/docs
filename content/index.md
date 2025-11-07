@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Node Pulse Admiral"
   text: ""
-  tagline: The control panel for your server fleet—deploy monitoring agents, track inventory, and visualize Prometheus metrics in one integrated platform.
+  tagline: "Unified server fleet dashboard—visualize Prometheus metrics, automate deployments with built-in and community-contributed Ansible playbooks, and manage servers via web-based SSH terminal."
   image:
     src: /images/logo.jpg
     alt: VitePress
